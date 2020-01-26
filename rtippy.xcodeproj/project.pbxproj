@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA40C7F23DD553B00ADCD95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40C7E23DD553B00ADCD95 /* AppDelegate.swift */; };
+		9DA40C8123DD553B00ADCD95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40C8023DD553B00ADCD95 /* SceneDelegate.swift */; };
+		9DA40C8323DD553B00ADCD95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40C8223DD553B00ADCD95 /* ViewController.swift */; };
+		9DA40C8623DD553B00ADCD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA40C8423DD553B00ADCD95 /* Main.storyboard */; };
+		9DA40C8823DD553C00ADCD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA40C8723DD553C00ADCD95 /* Assets.xcassets */; };
+		9DA40C8B23DD553C00ADCD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA40C8923DD553C00ADCD95 /* LaunchScreen.storyboard */; };
+		9DA40C9623DD553C00ADCD95 /* rtippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40C9523DD553C00ADCD95 /* rtippyTests.swift */; };
+		9DA40CA123DD553C00ADCD95 /* rtippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40CA023DD553C00ADCD95 /* rtippyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DA40C9223DD553C00ADCD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA40C7323DD553B00ADCD95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA40C7A23DD553B00ADCD95;
+			remoteInfo = rtippy;
+		};
+		9DA40C9D23DD553C00ADCD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA40C7323DD553B00ADCD95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA40C7A23DD553B00ADCD95;
+			remoteInfo = rtippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DA40C7B23DD553B00ADCD95 /* rtippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA40C7E23DD553B00ADCD95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA40C8023DD553B00ADCD95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DA40C8223DD553B00ADCD95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA40C8523DD553B00ADCD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA40C8723DD553C00ADCD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA40C8A23DD553C00ADCD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA40C8C23DD553C00ADCD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA40C9123DD553C00ADCD95 /* rtippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA40C9523DD553C00ADCD95 /* rtippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rtippyTests.swift; sourceTree = "<group>"; };
+		9DA40C9723DD553C00ADCD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA40C9C23DD553C00ADCD95 /* rtippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA40CA023DD553C00ADCD95 /* rtippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rtippyUITests.swift; sourceTree = "<group>"; };
+		9DA40CA223DD553C00ADCD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA40C7823DD553B00ADCD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C8E23DD553C00ADCD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C9923DD553C00ADCD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA40C7223DD553B00ADCD95 = {
+			isa = PBXGroup;
+			children = (
+				9DA40C7D23DD553B00ADCD95 /* rtippy */,
+				9DA40C9423DD553C00ADCD95 /* rtippyTests */,
+				9DA40C9F23DD553C00ADCD95 /* rtippyUITests */,
+				9DA40C7C23DD553B00ADCD95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA40C7C23DD553B00ADCD95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA40C7B23DD553B00ADCD95 /* rtippy.app */,
+				9DA40C9123DD553C00ADCD95 /* rtippyTests.xctest */,
+				9DA40C9C23DD553C00ADCD95 /* rtippyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA40C7D23DD553B00ADCD95 /* rtippy */ = {
+			isa = PBXGroup;
+			children = (
+				9DA40C7E23DD553B00ADCD95 /* AppDelegate.swift */,
+				9DA40C8023DD553B00ADCD95 /* SceneDelegate.swift */,
+				9DA40C8223DD553B00ADCD95 /* ViewController.swift */,
+				9DA40C8423DD553B00ADCD95 /* Main.storyboard */,
+				9DA40C8723DD553C00ADCD95 /* Assets.xcassets */,
+				9DA40C8923DD553C00ADCD95 /* LaunchScreen.storyboard */,
+				9DA40C8C23DD553C00ADCD95 /* Info.plist */,
+			);
+			path = rtippy;
+			sourceTree = "<group>";
+		};
+		9DA40C9423DD553C00ADCD95 /* rtippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA40C9523DD553C00ADCD95 /* rtippyTests.swift */,
+				9DA40C9723DD553C00ADCD95 /* Info.plist */,
+			);
+			path = rtippyTests;
+			sourceTree = "<group>";
+		};
+		9DA40C9F23DD553C00ADCD95 /* rtippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA40CA023DD553C00ADCD95 /* rtippyUITests.swift */,
+				9DA40CA223DD553C00ADCD95 /* Info.plist */,
+			);
+			path = rtippyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA40C7A23DD553B00ADCD95 /* rtippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA40CA523DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippy" */;
+			buildPhases = (
+				9DA40C7723DD553B00ADCD95 /* Sources */,
+				9DA40C7823DD553B00ADCD95 /* Frameworks */,
+				9DA40C7923DD553B00ADCD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtippy;
+			productName = rtippy;
+			productReference = 9DA40C7B23DD553B00ADCD95 /* rtippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DA40C9023DD553C00ADCD95 /* rtippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA40CA823DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippyTests" */;
+			buildPhases = (
+				9DA40C8D23DD553C00ADCD95 /* Sources */,
+				9DA40C8E23DD553C00ADCD95 /* Frameworks */,
+				9DA40C8F23DD553C00ADCD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA40C9323DD553C00ADCD95 /* PBXTargetDependency */,
+			);
+			name = rtippyTests;
+			productName = rtippyTests;
+			productReference = 9DA40C9123DD553C00ADCD95 /* rtippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DA40C9B23DD553C00ADCD95 /* rtippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA40CAB23DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippyUITests" */;
+			buildPhases = (
+				9DA40C9823DD553C00ADCD95 /* Sources */,
+				9DA40C9923DD553C00ADCD95 /* Frameworks */,
+				9DA40C9A23DD553C00ADCD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA40C9E23DD553C00ADCD95 /* PBXTargetDependency */,
+			);
+			name = rtippyUITests;
+			productName = rtippyUITests;
+			productReference = 9DA40C9C23DD553C00ADCD95 /* rtippyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA40C7323DD553B00ADCD95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tt;
+				TargetAttributes = {
+					9DA40C7A23DD553B00ADCD95 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9DA40C9023DD553C00ADCD95 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9DA40C7A23DD553B00ADCD95;
+					};
+					9DA40C9B23DD553C00ADCD95 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9DA40C7A23DD553B00ADCD95;
+					};
+				};
+			};
+			buildConfigurationList = 9DA40C7623DD553B00ADCD95 /* Build configuration list for PBXProject "rtippy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA40C7223DD553B00ADCD95;
+			productRefGroup = 9DA40C7C23DD553B00ADCD95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA40C7A23DD553B00ADCD95 /* rtippy */,
+				9DA40C9023DD553C00ADCD95 /* rtippyTests */,
+				9DA40C9B23DD553C00ADCD95 /* rtippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA40C7923DD553B00ADCD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA40C8B23DD553C00ADCD95 /* LaunchScreen.storyboard in Resources */,
+				9DA40C8823DD553C00ADCD95 /* Assets.xcassets in Resources */,
+				9DA40C8623DD553B00ADCD95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C8F23DD553C00ADCD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C9A23DD553C00ADCD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA40C7723DD553B00ADCD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA40C8323DD553B00ADCD95 /* ViewController.swift in Sources */,
+				9DA40C7F23DD553B00ADCD95 /* AppDelegate.swift in Sources */,
+				9DA40C8123DD553B00ADCD95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C8D23DD553C00ADCD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA40C9623DD553C00ADCD95 /* rtippyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA40C9823DD553C00ADCD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA40CA123DD553C00ADCD95 /* rtippyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DA40C9323DD553C00ADCD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA40C7A23DD553B00ADCD95 /* rtippy */;
+			targetProxy = 9DA40C9223DD553C00ADCD95 /* PBXContainerItemProxy */;
+		};
+		9DA40C9E23DD553C00ADCD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA40C7A23DD553B00ADCD95 /* rtippy */;
+			targetProxy = 9DA40C9D23DD553C00ADCD95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DA40C8423DD553B00ADCD95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA40C8523DD553B00ADCD95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA40C8923DD553C00ADCD95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA40C8A23DD553C00ADCD95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA40CA323DD553C00ADCD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA40CA423DD553C00ADCD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA40CA623DD553C00ADCD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA40CA723DD553C00ADCD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DA40CA923DD553C00ADCD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rtippy.app/rtippy";
+			};
+			name = Debug;
+		};
+		9DA40CAA23DD553C00ADCD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rtippy.app/rtippy";
+			};
+			name = Release;
+		};
+		9DA40CAC23DD553C00ADCD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rtippy;
+			};
+			name = Debug;
+		};
+		9DA40CAD23DD553C00ADCD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rtippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = heather.gan.rtippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rtippy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA40C7623DD553B00ADCD95 /* Build configuration list for PBXProject "rtippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA40CA323DD553C00ADCD95 /* Debug */,
+				9DA40CA423DD553C00ADCD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA40CA523DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA40CA623DD553C00ADCD95 /* Debug */,
+				9DA40CA723DD553C00ADCD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA40CA823DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA40CA923DD553C00ADCD95 /* Debug */,
+				9DA40CAA23DD553C00ADCD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA40CAB23DD553C00ADCD95 /* Build configuration list for PBXNativeTarget "rtippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA40CAC23DD553C00ADCD95 /* Debug */,
+				9DA40CAD23DD553C00ADCD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA40C7323DD553B00ADCD95 /* Project object */;
+}
